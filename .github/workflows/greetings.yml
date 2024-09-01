@@ -1,0 +1,20 @@
+name: Greet New Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send greeting message for new contributors
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Welcome to the project! Thank you for opening your first issue with us. We appreciate your contribution. Please make sure to check out our [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) for guidelines on how to contribute.
+          pr-message: |
+            🎉 Thank you for your first pull request! We appreciate your effort and time. Please review the [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) guidelines and ensure all checks are passing.
