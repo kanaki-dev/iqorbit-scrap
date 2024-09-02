@@ -22,4 +22,4 @@ Please make sure to update tests as appropriate.
 
 The following people are maintainers of this project. If you have any questions or need guidance, feel free to reach out to them:
 
-- **[Sandeep Patel](https://github.com/itsSandeep2023)** - Frontend Specialist. Contact for issues related to the UI/UX or frontend codebase.
+- **[Sandeep Patel](https://github.com/itsSandeep2023)** - Frontend Developer. Contact for issues related to the UI/UX or frontend codebase.
